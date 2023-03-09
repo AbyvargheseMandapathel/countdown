@@ -20,7 +20,7 @@ const ComingSoon = () => {
         <img src={Lumiere23Text} alt="" />
         <h2>National Level Techno-Cultural Fest</h2>
       </div>
-        <h1 className='coming-soon-text'>Coming Soon</h1>
+        <h1 className='coming-soon-text'>Coming Soon..</h1>
         <Countdown/>
         <footer className='footer-countdown'>
               <a className='social-links' href="https://www.instagram.com/cek_lumiere/">
