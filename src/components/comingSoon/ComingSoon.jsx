@@ -5,8 +5,8 @@ import './ComingSoon.css'
 import Countdown from '../countdown/Countdown'
 
 // images
-import LumiereLogo from '../../assets/LUMIERELOGO.png'
-import Lumiere23Text from '../../assets/LUMIERETEXT.png'
+import LumiereLogo from '../../assets/LUMIERELOGOwebp.webp'
+import Lumiere23Text from '../../assets/LUMIERETEXTwebp.webp'
 import InstagramLogo from '../../assets/instagram-logo.svg'
 import FacebookLogo from '../../assets/facebook-logo.svg'
 
