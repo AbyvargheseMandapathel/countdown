@@ -36,10 +36,17 @@
 
 .lumiere23-text-sec h2 {
     /* color: #91f6ff99; */
+    
     background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px) { /* adjust as needed for your design */
+    .lumiere23-text-sec h2 {
+        font-size: 0.8rem; /* reduce font size for smaller screens */
+    }
 }
 
 /* h1 {
