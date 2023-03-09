@@ -1,4 +1,4 @@
- * {
+* {
     color: #fff;
     margin: 0;
     padding: 0;
@@ -56,6 +56,7 @@
     -webkit-text-fill-color: transparent;
   } */
 
+
 .coming-soon-text {
     margin-top: .5em;
     text-align: center;
@@ -70,26 +71,31 @@
 
 .footer-countdown {
     width: 100%;
+    display: flex;
     text-align: center;
     position: absolute;
     bottom: 2em;
 }
 
-.footer-countdown p {
+.footer-countdown {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffffda;
+    justify-content: flex-end;
+    padding-right: 1em;
 }
 
-.instagram-logo-footer {
-    height: 1em;
-    width: 1em;
+.social-links {
+    width: 1.5em;
+    height: 1.5em;
+    padding: .15em;
+    margin-right: 1em;
+    transform: scale(.9);
+    transition: 400ms;
     
 }
 
-a{
-    text-decoration: none;
+.social-links:hover {
+    transform: scale(1);
 }
 
 
