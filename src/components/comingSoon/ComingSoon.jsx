@@ -26,7 +26,7 @@ const ComingSoon = () => {
               <a className='social-links' href="https://www.instagram.com/cek_lumiere/">
                 <img src={InstagramLogo} alt="CEK Lumiere Instagram" />
               </a>
-              <a className='social-links' href="https://www.instagram.com/cek_lumiere/">
+              <a className='social-links' href="https://www.facebook.com/ceklumiere/">
                 <img src={FacebookLogo} alt="CEK Lumiere Facebook" />
               </a>
         </footer>
