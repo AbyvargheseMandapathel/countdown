@@ -17,6 +17,7 @@ const ComingSoon = () => {
       </div>
       <div className="lumiere23-text-sec">
         <img src={Lumiere23Text} alt="" />
+        <h2>National Level Techno-Cultural Fest</h2>
       </div>
         <h1 className='coming-soon-text'>Coming Soon</h1>
         <Countdown/>
