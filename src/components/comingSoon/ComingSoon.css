@@ -1,0 +1,98 @@
+* {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.container-coming-soon {
+    min-height: 100vh;
+    padding-top: 4em;
+}
+
+.lumiere-logo-sec {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lumiere-logo-sec img {
+    width: 10em;
+}
+
+.lumiere23-text-sec {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.lumiere23-text-sec img {
+    width: 40em;
+}
+
+.coming-soon-text {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    background: linear-gradient(to right, #fcfcfc 0%, #abd6f8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 5.88327px 5.88327px rgba(0, 0, 0, 0.5);
+}
+
+.footer-countdown {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 2em;
+}
+
+.footer-countdown p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffffda;
+}
+
+.instagram-logo-footer {
+    height: 1em;
+    width: 1em;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* ====== media query ====== */
+@media only screen and (max-width: 750px) {
+    .lumiere-logo-sec img {
+        width: 7em;
+    }
+
+    .lumiere23-text-sec img {
+        width: 25em;
+    }
+
+    .coming-soon-text {
+        font-size: 2em;
+        margin-top: 1em;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .lumiere23-text-sec {
+        margin-top: 1em;
+    }
+
+    .lumiere23-text-sec img {
+        width: 18em;
+    }
+}
