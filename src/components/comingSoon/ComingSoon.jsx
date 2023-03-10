@@ -1,5 +1,6 @@
 import React from 'react'
 import './ComingSoon.css'
+import Typewriter from "typewriter-effect";
 
 // components
 import Countdown from '../countdown/Countdown'
@@ -20,7 +21,17 @@ const ComingSoon = () => {
         <img src={Lumiere23Text} alt="" />
         <h2>National Level Techno-Cultural Fest</h2>
       </div>
-        <h1 className='coming-soon-text'>Coming Soon..</h1>
+      <div className='coming-soon-text'>
+      <Typewriter
+  options={{
+    strings: ['Coming Soon...'],
+    autoStart: true,
+    loop: true,
+    delay: 300,
+  }}
+  className='coming-soon-text'
+/></div>
+
         <Countdown/>
         <footer className='footer-countdown'>
               <a className='social-links' href="https://www.instagram.com/cek_lumiere/">
